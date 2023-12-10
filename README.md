@@ -2,6 +2,7 @@
 Shell script that fixes the issue for launching Crusader Kings 2 on a unsupported Linux distribution.
 
 Currently working only for Steam versions and assuming that the pathing to your Steam folder is the standard one.
+The libtbb.so.2 stored in this repository was taken from a Europa Universalis 4 copy, Apparently the issue is caused because the library in the game folder (libtbb.so.2) is 32-bit and not 64-bit, and only EU4 has the 64-bit lib.
 
 ## Installation
 
